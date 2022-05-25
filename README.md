@@ -59,28 +59,26 @@
 ### 맵 생성
 
 - 2D 라이다 센서를 이용해 맵을 생성하고, 이를 경로탐색에 활용합니다.
-    
-    ![mapping.gif](../Movi/video/mapping.gif)
-    
+        ![mapping](https://user-images.githubusercontent.com/70011316/170166584-a5078c75-c129-4e24-b158-50ec206703e0.gif)
 
 ### 택배 운송
 
 1. 박스 탐색
     - 화물 창고 내 저장위치에 저장된 상자를 탐색합니다.
         
-        ![box_recog.gif](../Movi/video/box_recog.gif)
+        ![box_recog](https://user-images.githubusercontent.com/70011316/170166590-4a3c6555-7b90-4f30-b4ed-e90555120707.gif)
         
 2. 박스 QR코드 인식
     - 상자를 인식했다면, 상자에 접근하면서 상자에 부착된 QR코드를 확인합니다.
         
-        ![qr_recog.gif](../Movi/video/qr_recog.gif)
+        ![qr_recog](https://user-images.githubusercontent.com/70011316/170166586-3658777b-573d-4afe-b903-e8da77cf1bb9.gif)
         
 3. 박스 운송
     - 인식한 qr코드의 정보를 이용하여, 운송 위치로 물건을 배달합니다.
         
-        ![box_up.gif](../Movi/video/box_up.gif)
-        
-        ![box_down.gif](../Movi/video/box_down.gif)
+        ![box_up](https://user-images.githubusercontent.com/70011316/170166591-8fe00a49-e401-4e77-98d2-f35306ca63df.gif)
+        ![box_down](https://user-images.githubusercontent.com/70011316/170166589-a4edb94f-8fc7-4426-ae4c-0206eee1fa24.gif)
+
         
 
 # 서비스 아키텍쳐
