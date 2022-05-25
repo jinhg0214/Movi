@@ -83,7 +83,8 @@
 
 # 서비스 아키텍쳐
 
-![architecture](../Movi/video/architecture.png)
+![architecture](https://user-images.githubusercontent.com/70011316/170166791-42b5dde9-025c-47fb-ad2e-9fe513c58678.png)
+
 
 ### WEB
 
