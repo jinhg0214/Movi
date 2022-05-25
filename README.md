@@ -54,7 +54,7 @@
 
 - 2D 라이다 센서를 이용해 맵을 생성하고, 이를 경로탐색에 활용합니다.
     
-    [환경매핑.webm](../Movi/video/mapping.webm)
+    [환경매핑.gif](../Movi/video/mapping.gif)
     
 
 ### 택배 운송
@@ -62,19 +62,19 @@
 1. 박스 탐색
     - 화물 창고 내 저장위치에 저장된 상자를 탐색합니다.
         
-        [박스인식.webm](../Movi/video/box_recog.webm)
+        [박스인식.gif](../Movi/video/box_recog.gif)
         
 2. 박스 QR코드 인식
     - 상자를 인식했다면, 상자에 접근하면서 상자에 부착된 QR코드를 확인합니다.
         
-        [qr인식.webm](../Movi/video/qr_recog.webm)
+        [qr인식.gif](../Movi/video/qr_recog.gif)
         
 3. 박스 운송
     - 인식한 qr코드의 정보를 이용하여, 운송 위치로 물건을 배달합니다.
         
-        [박스탐색후들기.webm](../Movi/video/box_up.webm)
+        [박스탐색후들기.gif](../Movi/video/box_up.gif)
         
-        [박스내려놓기.webm](../Movi/video/box_down.webm)
+        [박스내려놓기.gif](../Movi/video/box_down.gif)
         
 
 # 서비스 아키텍쳐
