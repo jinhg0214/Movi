@@ -1,16 +1,22 @@
 # Movi
 ![https://lab.ssafy.com/s06-iot-control-sub2/S06P22A501/uploads/b71a9d785a2a244fe3cf7cde84f9aca3/Logo.png](https://lab.ssafy.com/s06-iot-control-sub2/S06P22A501/uploads/b71a9d785a2a244fe3cf7cde84f9aca3/Logo.png)
-   
+- SSAFY 6기 특화프로젝트 A501 
+- 인공지능과 자율주행을 접목한 화물 운송 로봇 Movi 입니다. 
+
 
 # 팀 소개
 
-김남훈: 팀장, 인지 파트, Git 담당   
-이규은: 인지 파트, 발표   
-박홍규: 인지 파트, Jira 담당  
-이진행: 판단/제어 파트, 시뮬레이터 환경 구성, Notion 담당  
-이진희: 판단/제어 파트, UCC  
-전건하: Web(Full-Stack), 배포   
+김남훈: 팀장, 인지 파트, Git
 
+이규은: 인지 파트, 발표   
+
+박홍규: 인지 파트, Jira 
+
+이진행: 판단/제어 파트, 시뮬레이터 환경 구성, Notion 
+
+이진희: 판단/제어 파트, UCC  
+
+전건하: Web(Full-Stack), 배포   
 
 # 개요
 
@@ -34,10 +40,10 @@
     ⇒  이러한 오분류 문제를 Movi를 통해 낮추어,   
     택배기사의 업무 부담을 줄 일 수 있을것으로 예상합니다
     
-4. 기획내용 
-    - 기획 발표 pdf
+4. 기획내용   
+    [기획 발표 pdf](../Movi/Document/smart_iot_movi.pdf)
   
-5. 프로젝트 UCC
+5. 프로젝트 UCC   
     [Movi UCC](https://youtu.be/5xxZX21mxcA)
     
 
@@ -54,7 +60,7 @@
 
 - 2D 라이다 센서를 이용해 맵을 생성하고, 이를 경로탐색에 활용합니다.
     
-    [환경매핑.gif](../Movi/video/mapping.gif)
+    ![mapping.gif](../Movi/video/mapping.gif)
     
 
 ### 택배 운송
@@ -62,24 +68,24 @@
 1. 박스 탐색
     - 화물 창고 내 저장위치에 저장된 상자를 탐색합니다.
         
-        [박스인식.gif](../Movi/video/box_recog.gif)
+        ![box_recog.gif](../Movi/video/box_recog.gif)
         
 2. 박스 QR코드 인식
     - 상자를 인식했다면, 상자에 접근하면서 상자에 부착된 QR코드를 확인합니다.
         
-        [qr인식.gif](../Movi/video/qr_recog.gif)
+        ![qr_recog.gif](../Movi/video/qr_recog.gif)
         
 3. 박스 운송
     - 인식한 qr코드의 정보를 이용하여, 운송 위치로 물건을 배달합니다.
         
-        [박스탐색후들기.gif](../Movi/video/box_up.gif)
+        ![box_up.gif](../Movi/video/box_up.gif)
         
-        [박스내려놓기.gif](../Movi/video/box_down.gif)
+        ![box_down.gif](../Movi/video/box_down.gif)
         
 
 # 서비스 아키텍쳐
 
-![서비스아키텍처](../Movi/video/architecture.png)
+![architecture](../Movi/video/architecture.png)
 
 ### WEB
 
